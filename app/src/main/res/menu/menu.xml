@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/id_Home_Fragment"
+        android:icon="@drawable/nav_error"
+        android:checked="true"
+        android:checkable="true"
+        android:title="Fall Detection"
+        />
+
+    <item
+        android:id="@+id/id_emerg_Contact_Fragment"
+        android:icon="@drawable/nav_phone"
+        android:checkable="true"
+        android:title="Edit contacts"/>
+
+    <item
+        android:id="@+id/id_Recording_Fragment"
+        android:icon="@drawable/nav_photo"
+        android:checkable="true"
+        android:title="View Recordings"/>
+
+    <item
+        android:id="@+id/id_Info_Fragment"
+        android:icon="@drawable/nav_question"
+        android:checkable="true"
+        android:title="Help"/>
+</menu>

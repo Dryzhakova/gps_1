@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NavigationViewTextStyle">
+        <item name="android:textSize">16dp</item> <!-- Установите размер текста по вашему выбору -->
+        <!-- Дополнительные настройки стиля, если необходимо -->
+    </style>
+
+</resources>

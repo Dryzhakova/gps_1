@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/id_Home_Fragment">
+    <fragment
+        android:id="@+id/id_emerg_Contact_Fragment"
+        android:name="com.example.gps_1.Fragments.EmergContactFragment"
+        android:label="Emetgency Contacts"
+        tools:layout="@layout/fragment_emerg_contact" />
+    <fragment
+        android:id="@+id/id_Info_Fragment"
+        android:name="com.example.gps_1.Fragments.SettingsFragment"
+        android:label="Information"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/id_Home_Fragment"
+        android:name="com.example.gps_1.Fragments.HomeFragment"
+        android:label="Fall Detection"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/id_Recording_Fragment"
+        android:name="com.example.gps_1.Fragments.RecordingFragment"
+        android:label="View Recording"
+        tools:layout="@layout/fragment_recording" />
+</navigation>
